@@ -1,191 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diaa Al Etra | Software Engineer</title>
+  <meta name="description" content="Diaa Al Etra, software engineer. Odoo developer and front-end developer building websites from front end to back end.">
+  <meta property="og:title" content="Diaa Al Etra | Software Engineer">
+  <meta property="og:description" content="Odoo developer and web developer. See my work.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div class="navigation bg-dark">
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link" href="#about">about</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">experience</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#work">work</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contact">contact</a>
-            </li>
-            <li class="resume nav-item cv">
-                <a class="nav-link" href="files/Diaa_Ashraf_CV (1).docx">resume</a>
-            </li>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="90">
+
+  <div class="scroll-bar" id="progress"></div>
+  <div class="glow" id="glow"></div>
+
+  <nav class="navbar navbar-expand-md navbar-dark site-nav fixed-top">
+    <div class="container-fluid px-4">
+      <a class="navbar-brand brand" href="#top">Diaa</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+        <ul class="navbar-nav align-items-md-center">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-md-3"><a class="btn-resume" href="files/Diaa_Ashraf_CV.docx" download>Resume</a></li>
         </ul>
+      </div>
     </div>
-    <section id="defenetion">
-        <p class="hi">hi,my name is</p>
-        <h3 class="my_name">Diaa Al Etra</h3>
-        <h2 class="my_job">I am a web developer</h2>
-        <p class="sum">i am a sofware engineer i love to build websites take a look at my work you might like some :)</p>
+  </nav>
 
-
+  <main id="top">
+    <section id="hero">
+      <canvas id="net" aria-hidden="true"></canvas>
+      <p class="hi">Hi, my name is</p>
+      <h1 class="my_name">Diaa Al Etra</h1>
+      <h2 class="my_job">I am a <span id="typed" class="word">software engineer.</span></h2>
+      <p class="sum">I build websites and business software, from the front end to the back end. Currently developing Odoo modules, reports and integrations. Take a look at my work.</p>
+      <a href="#work" class="btn-outline">See my work</a>
     </section>
 
-    <section id="about">
+    <section id="about" class="block">
       <div class="container">
-    
-        <h2 class="title text-center">About me</h2>
-    
-        <div class="row align-items-center">
-    
-          <!-- Image -->
-          <div class="col-12 col-md-4 mb-4 mb-md-0">
+        <h2 class="title">About me</h2>
+        <div class="row align-items-center gy-4">
+          <div class="col-12 col-md-4">
             <div class="imgbox">
-              <img 
-              class="hero img-thumbnail rounded img-fluid"
-              src="images/WhatsApp Image 2026-03-05 at 10.57.46 PM.jpeg"
-              alt="">
+              <img class="hero-img" src="images/WhatsApp Image 2026-03-05 at 10.57.46 PM.jpeg" alt="Portrait of Diaa Al Etra">
             </div>
           </div>
-
-
-          <div class="col-md-1"></div>
-
-    
-          <!-- Text -->
-          <div class="col-12 col-md-7">
-    
-            <p class="aboutpara">
-            Hello! My name is Diaa Younes Al Etra. I am a CS graduate (Software major),
-            graduated in 2025. I build websites from frontend all the way to backend.
-            Not just websites — I'm familiar with apps as well, but websites are my passion.
-            </p>
-    
-            <p>Here are a few technologies I’ve been working with recently:</p>
-    
-            <ul class="thelist row">
-              <li class="col col-md-4">Bootstrap</li>
-              <li class="col col-md-4">Vue</li>
-              <li class="col col-md-4">JavaScript</li>
-              <li class="col col-md-4">C++</li>
-              <li class="col col-md-4">C#</li>
-              <li class="col col-md-4">Python</li>
-              <li class="col col-md-4">MySQL</li>
+          <div class="col-12 col-md-7 offset-md-1">
+            <p class="aboutpara">Hello! My name is Diaa Younes Al Etra. I am a computer science graduate (software major), class of 2025. I build websites from the front end all the way to the back end, and I work with Odoo to build business applications. Websites are my passion.</p>
+            <p class="aboutpara">Here are a few technologies I have been working with recently:</p>
+            <ul class="thelist">
+              <li>Odoo</li><li>Python</li><li>JavaScript</li>
+              <li>Vue</li><li>Bootstrap</li><li>MySQL</li>
+              <li>C#</li><li>C++</li>
             </ul>
-    
           </div>
-    
         </div>
-    
       </div>
     </section>
 
-    <section id="work">
-        <h2 class="title">my work</h2>
-        <div class="projects-container">
-          <!-- Card 1 -->
-          <div class="project-card">
-            <h3>light knights</h3>
-            <img src="images/Screenshot_16.png" alt="Project 1" class="project-img">
-            <p>this is a charity organisation website it is designed to organise the charity volanteers donations and work</p>
-            <p>main technologies</p>
-            <p class="tec">php mysql </p>
-            <a href="https://github.com/diaa234/lightknightcharity.git" target="_blank">
-              <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" class="github-icon">
-            </a>
-          </div>
-          <!-- Card 2 -->
-          <div class="project-card">
-            <h3>your clinic</h3>
-            <img src="images/Screenshot_17.png" alt="Project 1" class="project-img">
-            <p>this project is for detecting some skin diesese and suggesting a treatment this project detect the condition using computer vision and ai and wait for doctor approval for treatment </p>
-            <p>main technologies</p>
-            <p class="tec"> flask php cnn </p>
-            <a href="https://drive.google.com/file/d/1bUJsatPJrb_b2JD-jCNLfVzPoIrYxAon/view?usp=sharing" target="_blank">
-              <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" class="github-icon">
-            </a>
-          </div>
-          <!-- Card 3 -->
-          <div class="project-card">
-            <h3>aliens</h3>
-            <img src="images/Screenshot_19.png" alt="Project 1" class="project-img">
-            <p>This is just a little fun game :)</p>
-            <p>main technologies</p>
-            <p class="tec">c#</p>
-            <a href="https://github.com/diaa234/chickngame.git" target="_blank">
-              <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" class="github-icon">
-            </a>
-          </div>
+    <section id="experience" class="block">
+      <div class="container">
+        <h2 class="title">Experience</h2>
+        <div class="timeline">
+
+          <article class="job">
+            <h3>Odoo Developer</h3>
+            <p class="meta">Odoo &middot; Feb 2026 &ndash; Present</p>
+            <ul>
+              <li>Built custom Odoo modules that fit the way each business works.</li>
+              <li>Designed and customized printed and on-screen reports.</li>
+              <li>Integrated Odoo with external systems and services.</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <h3>Freelance Front-end Developer</h3>
+            <p class="meta">Self-employed &middot; Ongoing</p>
+            <ul>
+              <li>Design and build responsive websites for clients, from layout to launch.</li>
+              <li>Turn designs into clean, accessible HTML, CSS and JavaScript.</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <h3>Graphic Designer (Photoshop)</h3>
+            <p class="meta">Freelance</p>
+            <ul>
+              <li>Created and edited visuals in Adobe Photoshop for client projects.</li>
+            </ul>
+          </article>
+
         </div>
-      </section>
+      </div>
+    </section>
 
+    <section id="work" class="block">
+      <div class="container">
+        <h2 class="title">My work</h2>
+        <div class="row g-4">
 
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="project-card">
+              <img src="images/Screenshot_16.png" alt="Light Knights website home page" class="project-img">
+              <h3>Light Knights</h3>
+              <p>A charity website that organizes volunteers, donations and events.</p>
+              <p class="tec">PHP &middot; MySQL</p>
+              <a href="https://github.com/diaa234/lightknightcharity.git" target="_blank" rel="noopener" aria-label="Light Knights on GitHub"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" class="github-icon"></a>
+            </article>
+          </div>
 
-      <section id="skills">
-        <h2>Skills</h2>
-      
-        <div class="skills-container">
-      
-          <div class="skill">HTML</div>
-          <div class="skill">CSS</div>
-          <div class="skill">JavaScript</div>
-          <div class="skill">Python</div>
-          <div class="skill">Flask</div>
-          <div class="skill">MySQL</div>
-          <div class="skill">c#</div>
-          <div class="skill">c++</div>
-          <div class="skill">vue</div>
-          <div class="skill">bootstrap</div>
-      
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="project-card">
+              <img src="images/Screenshot_17.png" alt="Your Clinic website home page" class="project-img">
+              <h3>Your Clinic</h3>
+              <p>Detects skin diseases from photos using computer vision and AI, then waits for a doctor to approve the suggested treatment.</p>
+              <p class="tec">Flask &middot; PHP &middot; CNN</p>
+              <a href="https://drive.google.com/file/d/1bUJsatPJrb_b2JD-jCNLfVzPoIrYxAon/view?usp=sharing" target="_blank" rel="noopener" class="demo-link">Watch demo</a>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="project-card">
+              <img src="images/Screenshot_19.png" alt="Aliens game screenshot" class="project-img">
+              <h3>Aliens</h3>
+              <p>A small arcade shooter game, built for fun.</p>
+              <p class="tec">C#</p>
+              <a href="https://github.com/diaa234/chickngame.git" target="_blank" rel="noopener" aria-label="Aliens on GitHub"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" class="github-icon"></a>
+            </article>
+          </div>
+
         </div>
-      </section>
+      </div>
+    </section>
 
-
-      <section id="contact">
-        <P class="hello">what's next?</P>
-        <h2>Get in Touch</h2>
-        <p>Feel free to reach out via any of the platforms below!</p>
-        <div class="contact-icons">
-          <!-- Email -->
-          <a href="diaaeletra53@gmail.com" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" class="contact-icon">
-          </a>
-          <!-- WhatsApp -->
-          <a href="https://wa.me/201026889902" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" class="contact-icon">
-          </a>
-          <!-- LinkedIn -->
-          <a href="https://www.linkedin.com/in/diaa-ashraf-1595341a2?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="contact-icon">
-          </a>
+    <section id="skills" class="block">
+      <div class="container">
+        <h2 class="title">Skills</h2>
+        <div class="row g-4">
+          <div class="col-12 col-md-6 col-lg-3"><h3 class="skill-h">Front end</h3><div class="skills-container"><span class="skill">HTML</span><span class="skill">CSS</span><span class="skill">JavaScript</span><span class="skill">Vue</span><span class="skill">Bootstrap</span></div></div>
+          <div class="col-12 col-md-6 col-lg-3"><h3 class="skill-h">Back end</h3><div class="skills-container"><span class="skill">Python</span><span class="skill">Flask</span><span class="skill">PHP</span><span class="skill">MySQL</span></div></div>
+          <div class="col-12 col-md-6 col-lg-3"><h3 class="skill-h">Business apps</h3><div class="skills-container"><span class="skill">Odoo</span><span class="skill">Odoo reports</span><span class="skill">Integrations</span></div></div>
+          <div class="col-12 col-md-6 col-lg-3"><h3 class="skill-h">Languages</h3><div class="skills-container"><span class="skill">C#</span><span class="skill">C++</span></div></div>
         </div>
-      </section>
+      </div>
+    </section>
 
+    <section id="contact" class="block text-center">
+      <p class="hello">What's next?</p>
+      <h2>Get in touch</h2>
+      <p class="contact-text">Feel free to reach out on any of the platforms below.</p>
+      <div class="contact-icons">
+        <a href="mailto:diaaeletra53@gmail.com" aria-label="Email"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="" class="contact-icon"></a>
+        <a href="https://wa.me/201026889902" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="" class="contact-icon"></a>
+        <a href="https://www.linkedin.com/in/diaa-ashraf-1595341a2" target="_blank" rel="noopener" aria-label="LinkedIn"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="" class="contact-icon"></a>
+        <a href="https://github.com/diaa234" target="_blank" rel="noopener" aria-label="GitHub"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" class="contact-icon"></a>
+      </div>
+    </section>
+  </main>
 
-      <footer>
-        <p>© 2026 Diaa Eletra. All rights reserved.</p>
-      </footer>
+  <footer><p>&copy; 2026 Diaa Al Etra. All rights reserved.</p></footer>
 
-      <!-- Left Social Icons -->
-<div class="left-icons">
-    <a href="https://github.com/diaa234"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github"></a>
-    <a href="https://www.linkedin.com/in/diaa-ashraf-1595341a2?utm_source=share_via&utm_content=profile&utm_medium=member_android"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="linkedin"></a>
-    <a href="https://wa.me/201026889902"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="whatsapp"></a>
-    <a href="https://www.instagram.com/diaa_younes?igsh=MWRsb3k0aDY1OHVhNg=="><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="instagram"></a>
+  <div class="left-icons">
+    <a href="https://github.com/diaa234" aria-label="GitHub"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt=""></a>
+    <a href="https://www.linkedin.com/in/diaa-ashraf-1595341a2" aria-label="LinkedIn"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt=""></a>
+    <a href="https://wa.me/201026889902" aria-label="WhatsApp"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt=""></a>
+    <a href="https://www.instagram.com/diaa_younes" aria-label="Instagram"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt=""></a>
   </div>
-  
-  <!-- Right Email -->
-  <div class="right-email">
-    <a href="diaaeletra53@gmail.com">diaaeletra53@gmail.com</a>
-  </div>
+  <div class="right-email"><a href="mailto:diaaeletra53@gmail.com">diaaeletra53@gmail.com</a></div>
 
-
-<script src="main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
